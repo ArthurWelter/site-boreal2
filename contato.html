@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- <style>
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: none;
+            box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.062);
+            padding: 20px 40px;
+        }
+    </style> -->
+    
+    <header>
+        <nav class="navi">
+
+
+            <div class="container-nav">
+                <i class='bx bx-map'></i>
+                <div class="texto-nav ">
+                    <h3>Faça-nos uma Visita</h3>
+                    <p>Avenida Sete de Setembro 3245D </p>
+                </div>
+            </div>
+
+            <div class="container-nav">
+                <i class='bx bx-phone-call'></i>
+                <div class="texto-nav number">
+                    <h3>Fale com um Atendente</h3>
+                    <a href="https://web.whatsapp.com/send?phone=554991108550&text=Ol%C3%A1%20tudo%20bem?%20Estava%20navegando%20pelo%20site%20da%20Boreal%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                        target="_blank">
+                        <p>(49) 9 9150 -2120</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-nav">
+                <i class='bx bx-time'></i>
+                <div class="texto-nav">
+                    <h3>Horário de Atendimento</h3>
+                    <p>Seg a Sex: 9hrs - 18hrs</p>
+                </div>
+            </div>
+        </nav>
+        <nav class="navigation">
+            <img src="imagens/output.png" alt="Logo Boreal">
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="menu-simples">Home</a></li>
+                <li><a href="obras.html" class="menu-simples">Obras</a></li>
+                <li><a href="sobrenos.html" class="menu-simples">Quem somos</a></li>
+                <li><a href="contato.html"><button>Contato</button></a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <img src="imagens/bg-pattern-top-desktop.svg" alt="" class="imagem-fundo">
+
+    <aside class="call-to-action">
+        <a href="https://web.whatsapp.com/send?phone=554991108550&text=Ol%C3%A1%20tudo%20bem?%20Estava%20navegando%20pelo%20site%20da%20Boreal%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        
+    </aside>
+
+   <section class="contato padding2" >
+     <div class="container-caixas-contato">
+        <div class="caixa1">
+            <p>Clique abaixo para enviar uma mensagem direta para o nosso time de atendimento.</p>
+            <a href="https://web.whatsapp.com/send?phone=554991108550&text=Ol%C3%A1%20tudo%20bem?%20Estava%20navegando%20pelo%20site%20da%20Boreal%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank"><button class="botao-caixa-whats">ENVIAR MENSAGEM <i class='bx bxl-whatsapp'></i></button></a>
+        </div>
+        <div class="caixa1">
+            <p>Preencha o formulário de contato para nossa equipe avaliar o seu perfil e descobrir a melhor opção pra você!</p>
+             <a href="#form"><button class="botao-caixa-form">CONTATO VIA FORMULÁRIO </i></button></a>
+        </div>
+     </div>
+    </section>
+
+
+    <label class="checkbox-btn">
+        <label for="checkbox"></label>
+        
+        <span class="checkmark"></span>
+    </label>
+
+
+    <section class="contato-form padding22" id="form">
+        <h1>Atendimento Boreal</h1>
+        <p>Responda as perguntas abaixo para entrarmos em contato com você em <span class="destaque-escuro">ainda hoje!</span></p>
+
+        <form class="form-empreendimentos" action="https://api.staticforms.xyz/submit" method="post">
+
+            <div class="form-empre" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="info-empre">
+                    <div class="row">
+                        <input type="text" name="$Nome" placeholder="Nome" autocomplete="none" required
+                            style="background:  #f5f5f7;">
+                        <input type="email" name="$E-mail" placeholder="Email" required style="background:  #f5f5f7;">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="$Telefone" placeholder="Número" autocomplete="none" required
+                            style="background:  #f5f5f7;">
+                        <input type="text" name="$Assunto" autocomplete="none" placeholder="Assunto"
+                             required="required" style="background: #f5f5f7;">
+                       
+                    </div>
+                </div>
+
+                <div class="onde-chamar">
+                    <div class="texto-onde-chamar">
+                        <p>Onde prefere ser chamado? </p>
+                    </div>
+                   <div class="onde-chamar1">
+                        <div class="onde-chamar-check">
+
+                            <div class="content">
+                                <label class="checkBox" >
+                                  <input id="ch1"   type="checkbox" name="$whatsapp" >
+                                  <div class="transition"></div>
+                            </label>
+                              </div>
+                            
+
+                            <p>WhatsApp</p>
+                            
+                        </div>
+
+                        <div class="onde-chamar-check">
+
+                            <div class="content" >
+                                <label class="checkBox" >
+                                  <input id="ch1" type="checkbox" name="$E-mail">
+                                  <div class="transition"></div>
+                                </label>
+                              </div>
+
+                            <p>E-mail</p>
+                            
+                        </div>
+
+                        <div class="onde-chamar-check">
+
+                            <div class="content">
+                                <label class="checkBox">
+                                  <input id="ch1" type="checkbox" name="$Ligação">
+                                  <div class="transition"></div>
+                                </label>
+                              </div>
+
+                            <p>Ligação</p>
+                            
+                        </div>
+                   </div>
+                </div>
+                </div>
+                <textarea data-aos="fade-up" data-aos-delay="100" name="$Mensagem" placeholder="Mensagem" autocomplete="none" required
+                    style=" background:  #f5f5f7; resize:none;"></textarea>
+            </div>
+
+            <div class="botao-empre" data-aos="fade-up" data-aos-delay="250"><button type="submit">ENVIAR
+                    MENSAGEM</button></div>
+
+            <input type="hidden" name="accessKey" value="f89d941d-576b-4618-9269-588cd6b61781" autocomplete="none">
+            <input type="hidden" name="redirectTo"
+                value="http://127.0.0.1:5500/obrigado.html">
+
+
+        </form>
+    </section>
+    
+    <section class="container-onda">
+        <img src="imagens/wave (1).svg" alt="" class="onda">
+    </section>
+
+    <footer class="secao-onda padding">
+        <div class="footer">
+            <div class="footer1">
+                <a href="index.html"><img src="imagens/output.png" alt="Logo Boreal"></a>
+                <p>De acordo com a Lei 4591/64, informamos que as imagens contidas neste site, possuem caráter
+                    ilustrativo. Os móveis assim como alguns materiais de acabamento representados nas plantas de
+                    ilustração, não fazem parte integrante do contrato. Os imóveis serão entregues conforme indicado no
+                    Memorial Descritivo, podendo haver modificações no projeto arquitetônico e complementares, sem aviso
+                    prévio.</p>
+            </div>
+
+            <div class="footer2">
+                <a href="#"><button><i class='bx bxs-chevron-up'></i></button></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="sobrenos.html">Quem somos</a></li>
+                    <li><a href="obras.html">Obras</a></li>
+                </ul>
+            </div>
+
+           
+        </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
+</body>
+</html>
